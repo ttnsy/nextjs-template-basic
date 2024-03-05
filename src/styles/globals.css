@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl font-medium text-primary;
+  }
+
+  button {
+    @apply btn btn-primary w-full;
+  }
+
+  input {
+    @apply input;
+  }
+}
